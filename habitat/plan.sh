@@ -4,6 +4,7 @@ pkg_origin=biome
 pkg_name=bio-plugin-git
 pkg_version=0.1.0
 pkg_description="The Biome Plugin Git"
+pkg_upstream_url="https://github.com/biome-sh/bio-plugin-git"
 
 pkg_maintainer="Yauhen Artsiukhou <jsirex@gmail.com>"
 pkg_license=("MIT")
