@@ -21,4 +21,4 @@ do_setup_environment() {
 }
 ```
 
-For additional configuration option see [lib/plugin.sh]
+Consider source [bio-plugin-git](habitat/lib/plugin.sh)
