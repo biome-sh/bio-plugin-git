@@ -13,7 +13,7 @@ pkg_build_deps+=(biome/bio-plugin-git)
 
 # You can optimize behavior by copying only sub directory
 # This will safe some time in huge repo
-plugin_git_subdir=components/component1
+pkg_git_subdir=components/component1
 
 do_setup_environment() {
   source $(pkg_path_for biome/bio-plugin-git)/lib/plugin.sh
