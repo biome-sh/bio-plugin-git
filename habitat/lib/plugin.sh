@@ -1,5 +1,17 @@
 # shellcheck shell=bash
 
+# Bio Plugin Git
+# Allows to use git working directory as source
+#
+# Variables:
+# `plugin_git_subdir` - unpack a sub directory relative to git root as source
+#
+# Functions:
+# `plugin_git_download` - skipped, because nothing to download
+# `plugin_git_verify` - skipped, because nothing to verify
+# `plugin_git_unpack` - copies all git known files into CACHE_PATH
+
+
 # Optionally we can unpack a sub directory relative to git root as source
 : "${plugin_git_subdir:=}"
 

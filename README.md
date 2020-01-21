@@ -2,10 +2,9 @@
 
 This plugin helps you to build project when in git repository.
 
-It overrides `do_download`, `do_verify` and `do_unpack` so your current working directory will go into _CACHE_PATH_.
+It overrides `do_default_download`, `do_default_verify` and `do_default_unpack` so your current working directory will go into _CACHE_PATH_.
 
 **Only staged files are copied!**
-
 
 ## Usage
 
