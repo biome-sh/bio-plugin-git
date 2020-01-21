@@ -12,7 +12,7 @@ It overrides `do_default_download`, `do_default_verify` and `do_default_unpack` 
 pkg_build_deps+=(biome/bio-plugin-git)
 
 # You can optimize behavior by copying only sub directory
-# This will safe some time in huge repo
+# This will save some time in huge repo
 pkg_git_subdir=components/component1
 
 do_setup_environment() {
