@@ -12,7 +12,7 @@ pkg_license=("MIT")
 pkg_deps=(core/git)
 
 # This package uses self
-plugin_git_subdir=habitat
+pkg_git_subdir=habitat
 
 do_setup_environment() {
     source "$PLAN_CONTEXT/lib/plugin.sh"
